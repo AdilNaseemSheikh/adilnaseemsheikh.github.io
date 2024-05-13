@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc163ab5.css",
-    "main.js": "/static/js/main.b6ea5797.js",
-    "static/media/tech.jpg": "/static/media/tech.5c41b60d250394b9aef2.jpg",
-    "static/media/bg.jpg": "/static/media/bg.9706b8077353ecc65905.jpg",
-    "static/media/resume.pdf": "/static/media/resume.f4a9eedb01c8ff4e1907.pdf",
-    "static/media/symbol-defs.svg": "/static/media/symbol-defs.b9775f4e52b9ac9ed485504b87e8e066.svg",
-    "index.html": "/index.html",
-    "main.dc163ab5.css.map": "/static/css/main.dc163ab5.css.map",
-    "main.b6ea5797.js.map": "/static/js/main.b6ea5797.js.map"
+    "main.css": "/adilnaseemsheikh.github.io/static/css/main.54014405.css",
+    "main.js": "/adilnaseemsheikh.github.io/static/js/main.c88bacb2.js",
+    "static/media/tech.jpg": "/adilnaseemsheikh.github.io/static/media/tech.eba34562d25ecebed4e9.jpg",
+    "static/media/bg.jpg": "/adilnaseemsheikh.github.io/static/media/bg.9706b8077353ecc65905.jpg",
+    "static/media/commonplace.png": "/adilnaseemsheikh.github.io/static/media/commonplace.04895d233e8604f2badd.png",
+    "static/media/easycoach.png": "/adilnaseemsheikh.github.io/static/media/easycoach.5d11335932d48c0a6ef6.png",
+    "static/media/worldwise.jpg": "/adilnaseemsheikh.github.io/static/media/worldwise.11e93a9ea92b8fe863e9.jpg",
+    "static/media/forkify.jpg": "/adilnaseemsheikh.github.io/static/media/forkify.595f3fb40ac66bf95d4f.jpg",
+    "static/media/wild-oasis.jpg": "/adilnaseemsheikh.github.io/static/media/wild-oasis.c01d7566d46686e85e3c.jpg",
+    "static/media/resume.pdf": "/adilnaseemsheikh.github.io/static/media/resume.51c87357543be9106c3a.pdf",
+    "static/media/uos.jpeg": "/adilnaseemsheikh.github.io/static/media/uos.d7eceb79361e4c326f36.jpeg",
+    "static/media/profile.jpeg": "/adilnaseemsheikh.github.io/static/media/profile.188f2109638316dffab9.jpeg",
+    "static/media/ly-sm.jpeg": "/adilnaseemsheikh.github.io/static/media/ly-sm.02faead3565ed5ccf240.jpeg",
+    "index.html": "/adilnaseemsheikh.github.io/index.html",
+    "main.54014405.css.map": "/adilnaseemsheikh.github.io/static/css/main.54014405.css.map",
+    "main.c88bacb2.js.map": "/adilnaseemsheikh.github.io/static/js/main.c88bacb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc163ab5.css",
-    "static/js/main.b6ea5797.js"
+    "static/css/main.54014405.css",
+    "static/js/main.c88bacb2.js"
   ]
 }
