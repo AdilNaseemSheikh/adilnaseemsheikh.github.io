@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.4189cb60.css",
-    "main.js": "/static/js/main.27361e57.js",
-    "static/media/tech.jpg": "/static/media/tech.eba34562d25ecebed4e9.jpg",
+    "main.css": "/static/css/main.29318b1c.css",
+    "main.js": "/static/js/main.d0e5c96e.js",
+    "static/media/tech.jpg": "/static/media/tech.5c41b60d250394b9aef2.jpg",
+    "static/media/sieck.png": "/static/media/sieck.d46454db772b7bf61553.png",
     "static/media/bg.jpg": "/static/media/bg.9706b8077353ecc65905.jpg",
     "static/media/commonplace.png": "/static/media/commonplace.04895d233e8604f2badd.png",
     "static/media/easycoach.png": "/static/media/easycoach.5d11335932d48c0a6ef6.png",
     "static/media/worldwise.jpg": "/static/media/worldwise.11e93a9ea92b8fe863e9.jpg",
-    "static/media/forkify.jpg": "/static/media/forkify.595f3fb40ac66bf95d4f.jpg",
     "static/media/wild-oasis.jpg": "/static/media/wild-oasis.c01d7566d46686e85e3c.jpg",
-    "static/media/resume.pdf": "/static/media/resume.51c87357543be9106c3a.pdf",
     "static/media/uos.jpeg": "/static/media/uos.d7eceb79361e4c326f36.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.5bd55ad40a24e39157b3.pdf",
+    "static/media/reviewtool.png": "/static/media/reviewtool.48e7b32cd78fe2eeffbb.png",
     "static/media/profile.jpeg": "/static/media/profile.188f2109638316dffab9.jpeg",
     "static/media/ly-sm.jpeg": "/static/media/ly-sm.02faead3565ed5ccf240.jpeg",
     "index.html": "/index.html",
-    "main.4189cb60.css.map": "/static/css/main.4189cb60.css.map",
-    "main.27361e57.js.map": "/static/js/main.27361e57.js.map"
+    "main.29318b1c.css.map": "/static/css/main.29318b1c.css.map",
+    "main.d0e5c96e.js.map": "/static/js/main.d0e5c96e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4189cb60.css",
-    "static/js/main.27361e57.js"
+    "static/css/main.29318b1c.css",
+    "static/js/main.d0e5c96e.js"
   ]
 }
