@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ab24331.css",
-    "main.js": "/static/js/main.44c169dc.js",
+    "main.css": "/static/css/main.5c606ef7.css",
+    "main.js": "/static/js/main.fab9ca5b.js",
+    "static/media/total.png": "/static/media/total.39bcd08ad198f5579036.png",
     "static/media/peasomy.png": "/static/media/peasomy.46ed5f9f2c1e81beed97.png",
     "static/media/tech.jpg": "/static/media/tech.5c41b60d250394b9aef2.jpg",
+    "static/media/wild.png": "/static/media/wild.8b0a07e95af3e0ea9929.png",
     "static/media/cardcafe.png": "/static/media/cardcafe.a1ef6204e83fb9e7bd47.png",
     "static/media/bg.jpg": "/static/media/bg.9706b8077353ecc65905.jpg",
     "static/media/cp.png": "/static/media/cp.aed5ab362d1f4e4fe75a.png",
+    "static/media/terp.png": "/static/media/terp.d7a930334512e4728559.png",
+    "static/media/stranger.png": "/static/media/stranger.81dc812bc468b7309ea0.png",
     "static/media/sieck.png": "/static/media/sieck.4109e61530ab17b7a3d2.png",
+    "static/media/enterai.png": "/static/media/enterai.147ccf43511f3ec7547b.png",
+    "static/media/start.png": "/static/media/start.194e8bf3f9cf0db3a843.png",
     "static/media/ecc.png": "/static/media/ecc.5a8fe7790b98e820b9a7.png",
     "static/media/dashboard.png": "/static/media/dashboard.dedf70de21d224b4a5e1.png",
     "static/media/uos.jpeg": "/static/media/uos.d7eceb79361e4c326f36.jpeg",
@@ -16,11 +22,11 @@
     "static/media/profile.jpeg": "/static/media/profile.188f2109638316dffab9.jpeg",
     "static/media/ly-sm.jpeg": "/static/media/ly-sm.02faead3565ed5ccf240.jpeg",
     "index.html": "/index.html",
-    "main.9ab24331.css.map": "/static/css/main.9ab24331.css.map",
-    "main.44c169dc.js.map": "/static/js/main.44c169dc.js.map"
+    "main.5c606ef7.css.map": "/static/css/main.5c606ef7.css.map",
+    "main.fab9ca5b.js.map": "/static/js/main.fab9ca5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab24331.css",
-    "static/js/main.44c169dc.js"
+    "static/css/main.5c606ef7.css",
+    "static/js/main.fab9ca5b.js"
   ]
 }
