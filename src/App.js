@@ -1,22 +1,25 @@
 import "./App.css";
-import img from "./img.jpeg";
+import Contact from "./pages/contact";
+import Home from "./pages/Home";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import AppLayout from "./ui/AppLayout";
 
 function App() {
   return (
-    <div className="app">
-      <h1>Adil Naseem Sheikh</h1>
-        <h3>A Software Engineer</h3>
-        <div className="img">
-        <img src={img} className="image" alt="A profile" />
-        </div>
-        <h4>Comming soon...</h4>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
+// TODO:
+// fix icons
+// fix typewriter position
+// create a CV
+
 export default App;
-// "homepage": "https://AdilNaseemSheikh.github.io/profile",
-// display: flex;
-  // justify-content: center;
-  // align-items: center;
-  // text-align: center;

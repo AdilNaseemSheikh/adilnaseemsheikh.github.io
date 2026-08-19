@@ -1,0 +1,198 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../public/bg.jpg");
+  /* background: url("../../public/bg-3.jpg"); */
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overview__icon {
+  height: 100%;
+  width: 100%;
+}
+.overview__icon svg {
+  height: 100%;
+  width: 100%;
+}
+
+/* .hero::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("img-4.png");
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.5;
+    opacity: 0.5; 
+    background-color: #353131;
+  } */
+
+.hero .floating-box {
+  position: absolute;
+  object-fit: cover;
+  /* background-color: #3e383b; */
+  /* background-color: var(--card); */
+  background-color: rgba(35, 41, 48, 0.8);
+
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  transition: all 2.5s cubic-bezier(0.23, 0.9, 1, 1);
+}
+
+.floating-box--primary {
+  height: 8.5rem;
+  width: 8.5rem;
+  z-index: 10;
+}
+
+.floating-box--secondary {
+  height: 6.5rem;
+  width: 6.5rem;
+  z-index: 9;
+}
+
+.floating-box--outlined {
+  height: 4.9rem !important;
+  width: 4.9rem !important;
+  background-color: transparent !important;
+  border: 2px solid var(--card);
+  z-index: 7;
+}
+
+.floating-box--empty {
+  height: 5.4rem !important;
+  width: 5.4rem !important;
+  opacity: 0.7;
+  z-index: 8;
+}
+
+.floating-box-01 {
+  top: 25%;
+  left: 36%;
+}
+
+.floating-box-02 {
+  left: 75%;
+  top: 54%;
+}
+
+.floating-box-03 {
+  left: 11%;
+  top: 28%;
+}
+
+.floating-box-04 {
+  top: 57%;
+  left: 13%;
+}
+
+.floating-box-05 {
+  left: 83%;
+  top: 42%;
+}
+
+.floating-box-06 {
+  top: 36%;
+  left: 62%;
+}
+.floating-box-07 {
+  left: 53%;
+  top: 68%;
+}
+.floating-box-08 {
+  top: 28%;
+  left: 52%;
+}
+@media only screen and (max-width: 600px) {
+  .floating-box-08 {
+    top: 47%;
+    left: 52%;
+  }
+  /* .hero {
+    height: 70vh;
+  } */
+}
+.floating-box-09 {
+  top: 77%;
+  left: 69%;
+}
+
+.floating-box-10 {
+  left: 82%;
+  top: 22%;
+}
+.floating-box-11 {
+  top: 67%;
+  left: 25%;
+}
+
+.floating-box-12 {
+  top: 41%;
+  left: 24%;
+}
+
+.floating-box-13 {
+  top: 14%;
+  left: 67%;
+}
+
+.floating-box-14 {
+  left: 45%;
+  top: 55%;
+}
+
+.floating-box-15 {
+  left: 24%;
+  top: 19%;
+}
+
+.floating-box-16 {
+  left: 1%;
+}
+
+.floating-box-17 {
+  left: 5%;
+  top: 77%;
+}
+
+.floating-box-18 {
+  top: 10%;
+}
+
+.floating-box-19 {
+  top: 53%;
+  left: 35%;
+}
+
+.floating-box-20 {
+  top: 10%;
+  left: 5%;
+}
+
+.floating-box-21 {
+  left: 40%;
+  top: 81%;
+}
+
+.floating-box-22 {
+  left: 87%;
+  top: 78%;
+}
+.floating-box-23 {
+  top: 8%;
+  left: 90%;
+}

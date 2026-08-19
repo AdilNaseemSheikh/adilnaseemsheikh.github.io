@@ -1,0 +1,44 @@
+.heading-primary {
+  font-size: 5rem;
+  color: var(--heading);
+  font-weight: 700;
+  z-index: 20;
+  position: relative;
+}
+
+.heading-primary span {
+  color: var(--primary);
+  position: relative;
+}
+
+.heading-primary span::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  background-color: var(--primary);
+  top: 50%;
+  right: -8px;
+  transform: translateY(-45%);
+  animation: blink 0.7s infinite;
+}
+
+.heading-primary span.stop-blinking::before {
+  animation: none;
+}
+@media only screen and (max-width: 550px) {
+  .heading-primary {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .heading-primary {
+    font-size: 3.5rem;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,231 @@
+.timeline {
+  position: relative;
+}
+
+.timeline__tile {
+  /* padding: 2rem 4rem; */
+  width: 50%;
+  text-align: start;
+}
+
+.content {
+  background-color: var(--card);
+  color: var(--paragraph);
+  padding: 2rem;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: var(--shadow-light);
+  transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.content:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.timeline__tile .institute {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--paragraph);
+}
+
+.timeline__tile .institute h4 {
+  transition: all 0.3s;
+}
+
+.timeline__tile .institute h4:hover {
+  color: var(--header);
+  transform: scale(0.95);
+}
+
+.timeline__tile .institute img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.timeline__tile--left {
+  padding: 2rem 4rem 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline__tile--right {
+  padding: 2rem 0 2rem 4rem;
+  left: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline__tile .title {
+  font-size: 2rem;
+  color: var(--header);
+}
+
+.timeline__tile .location {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.timeline__tile .desc {
+  font-size: 1.4rem;
+}
+
+/* After before pseudo-elements */
+
+/* vertical Bar */
+
+.timeline::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 0.3rem;
+  background: linear-gradient(45deg, #f27121, #e94057, #8a2387);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Timeline Circle */
+
+.timeline__tile::after {
+  content: "";
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--card);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.timeline__tile--left::after {
+  top: 3.8rem;
+  right: -1.05rem;
+}
+.timeline__tile--right::after {
+  top: 3.8rem;
+  left: -1.05rem;
+}
+
+/* Timeline date */
+
+.timeline__tile::before {
+  content: "";
+  color: var(--header);
+  position: absolute;
+  text-align: start;
+  border-radius: 20px;
+  width: 12rem;
+  font-size: 1.2rem;
+}
+
+.timeline__tile--left::before {
+  right: -14rem;
+  top: 3.8rem;
+}
+.timeline__tile--right::before {
+  top: 3.8rem;
+  left: -14rem;
+}
+.timeline__tile--left:nth-child(1)::before {
+  content: "2022";
+}
+.timeline__tile--right:nth-child(2)::before {
+  content: "Jul 2022 - Dec 2023";
+}
+.timeline__tile--left:nth-child(3)::before {
+  content: "Nov 2022 - Dec 2023";
+}
+.timeline__tile--right:nth-child(4)::before {
+  content: "Dec 2023 - Feb 2025";
+}
+
+.timeline__tile--left:nth-child(5)::before {
+  content: "Feb 2025 - Present";
+}
+
+/* Timeline tile arrows */
+
+.timeline__tile--right .content::after {
+  content: "";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: var(--card);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2rem;
+  left: -0.75rem;
+  z-index: -1;
+}
+
+.timeline__tile--left .content::after {
+  content: "";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: var(--card);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 2rem;
+  right: -0.75rem;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 850px) {
+  .timeline__tile {
+    padding: 2rem 0;
+  }
+  .timeline__tile--left {
+    padding-right: 4rem;
+  }
+  .timeline__tile--right {
+    padding-left: 4rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .timeline__tile--left {
+    padding-left: 4rem;
+    padding-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .timeline__tile {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .timeline::after {
+    left: unset;
+  }
+
+  .timeline__tile--left::after {
+    left: -1.05rem;
+  }
+
+  .timeline__tile--right {
+    left: unset;
+  }
+
+  .timeline__tile--left .content::after {
+    top: 2rem;
+    left: -0.75rem;
+  }
+
+  .timeline__tile--left::before {
+    /* right: 26rem; */
+    right: unset;
+    left: unset;
+    top: -1.05rem;
+  }
+
+  .timeline__tile--right::before {
+    /* right: 26rem; */
+    top: -1.05rem;
+    left: unset;
+  }
+}

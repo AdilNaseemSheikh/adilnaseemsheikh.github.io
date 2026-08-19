@@ -1,0 +1,111 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+
+@media only screen and (max-width: 915px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project__card {
+  border-radius: 14px;
+  border: 1px solid var(--paragraph);
+  overflow: hidden;
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: var(--shadow-light);
+  transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.project__card hr {
+  height: 0.1px;
+  border: none;
+  background-color: var(--paragraph);
+}
+.project__card:hover {
+  box-shadow: var(--shadow-hover);
+}
+.project__card figure {
+  position: relative;
+}
+
+.project__card figcaption {
+  position: absolute;
+  bottom: -0.5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: var(--card);
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  width: 100.3%;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.project__card .project__image {
+  height: 20rem;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.project__card .project__image img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+.project__card .project__image .position--center {
+  object-position: center;
+}
+.project__card .project__image .position--left {
+  object-position: left;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project__keywords {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.project__keywords span {
+  font-size: 1.1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  color: var(--subheadline);
+}
+
+.project__card .actions a {
+  text-decoration: none;
+  color: var(--paragraph);
+  border: 1px solid var(--header);
+  border-radius: 7px;
+  transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.3s;
+}
+.project__card .actions a:hover {
+  transform: scale(1.03);
+  box-shadow: var(--shadow-hover);
+}
+
+.button--view-more {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}

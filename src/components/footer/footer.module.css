@@ -1,0 +1,46 @@
+footer {
+  border-top: 1px solid var(--paragraph);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  gap: 2.5rem;
+}
+footer ul::after,
+footer ul::before {
+  content: "";
+  display: block;
+  background-color: var(--paragraph);
+  height: 1px;
+  flex: 1;
+}
+
+footer .footer__actions {
+  display: flex;
+  gap: 2rem;
+}
+
+.copyright-notice {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+footer ul li {
+  height: 4rem;
+  width: 4rem;
+}
+footer ul li svg {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: transform 0.3s;
+}
+
+footer ul li svg:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
